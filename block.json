@@ -1,0 +1,23 @@
+{
+	"apiVersion": 3,
+	"version": "2.2.4",
+	"title": "Muzodo",
+	"description": "Displays the upcoming events of a muzodo group.",
+	"name": "muzodo/events",
+	"category": "embed",
+	"icon": "format-audio", 
+	"editorScript": "file:./block.js",
+	"editorStyle": "file:./editor.css",
+	"style": "file:./style.css",
+	"attributes": {
+		"apiKey": { "type": "string" },
+		"filterPrivate": { "type": "boolean", "default": true },
+		"filterCancelled": { "type": "boolean", "default": true },
+		"filterUnconfirmed": { "type": "boolean", "default": true },
+		"dateTimeSeparate": { "type": "boolean", "default": false },
+		"dateFormat": { "type": "string" },
+		"timeFormat": { "type": "string" },
+		"showVenue": { "type": "boolean" },
+		"noEventsText": { "type": "string" }
+	}
+}

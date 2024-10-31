@@ -1,0 +1,23 @@
+.muzodo-date {
+	width: 15%
+}
+
+.muzodo-time {
+	width: 15%
+}
+
+.muzodo-datetime {
+	width: 30%
+}
+
+.muzodo-performance-short {
+	width: 35%
+}
+
+.muzodo-venue {
+	width: 35%
+}
+
+.muzodo-performance-long {
+	width: 70%;
+}

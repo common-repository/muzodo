@@ -1,0 +1,10 @@
+/* grey background */
+.wp-block-muzodo-events {
+    background: #8d928d;
+    color: white;
+    padding: 20px;
+}
+
+.wp-block-muzodo-events .muzodo-api-key {
+	width: 350px;
+}
